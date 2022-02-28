@@ -10,6 +10,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="style/global.css"/>
         <link rel="stylesheet" href="style/room.css"/>
+        <link rel="stylesheet" href="style/modal.css"/>
 
         <!-- FONTES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -76,10 +77,90 @@
                                 </a>
                             </div>
                         </div>
+
+                        <div class="question-wrapper">
+                            <div class="question-content">
+                                <div class="user">
+                                 <img src="assets/avatar.svg" alt="avatar">
+                                </div>
+                                <div class="question">
+                                    <p>O que é JavaScript?</p>
+                                </div>
+                            </div> 
+                            <div class="actions">
+                                <a href="#">
+                                    <img src="assets/check.svg" alt="Marcar como lida" class="check"/>
+                                    Marcar como lida
+                                </a>
+                                <a href="#">
+                                    <img src="assets/lixeira.svg" alt="Excluir" class="delete"/>
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="question-wrapper">
+                            <div class="question-content">
+                                <div class="user">
+                                 <img src="assets/avatar.svg" alt="avatar">
+                                </div>
+                                <div class="question">
+                                    <p>Você já sabe quais as bases que você precisa melhorar para alcançar o seu proximo nível com maestria, desbravando seus limites e medos enfrentados até o momento?</p>
+                                </div>
+                            </div> 
+                            <div class="actions">
+                                <a href="#">
+                                    <img src="assets/check.svg" alt="Marcar como lida" class="check"/>
+                                    Marcar como lida
+                                </a>
+                                <a href="#">
+                                    <img src="assets/lixeira.svg" alt="Excluir" class="delete"/>
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="question-wrapper read">
+                            <div class="question-content">
+                                <div class="user">
+                                 <img src="assets/avatar.svg" alt="avatar">
+                                </div>
+                                <div class="question">
+                                    <p>O que é Typescript?</p>
+                                </div>
+                            </div> 
+                            <div class="actions">
+                                <!-- <a href="#">
+                                    <img src="assets/check.svg" alt="Marcar como lida" class="check"/>
+                                    Marcar como lida
+                                </a> -->
+                                <a href="#">
+                                    <img src="assets/lixeira.svg" alt="Excluir" class="delete"/>
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>
-
         </div>
+
+        <!-- Modal -->
+        <div class="modal-wrapper">
+            <div class="modal">
+                <h2>Excluir pergunta</h2>
+                <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+                <form action="">
+                    <label class="sr-only" for-id="password">Digite sua senha</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha"/>
+                    <div class="buttons">
+                        <div class="button grey">Cancelar</div>
+                        <button class="red">Sim, excluir</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
     </body>
 </html>
